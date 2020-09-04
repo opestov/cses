@@ -9,8 +9,7 @@ class Solver:
                 s += a[i - 1] - a[i]
                 a[i] = a[i - 1]
         self.ans = s
-    
+
+
 s = Solver()
 print(s.ans)
-
-

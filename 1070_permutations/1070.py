@@ -11,10 +11,10 @@ class Solver:
             print('NO SOLUTION')
             return
 
-        p = ' '.join(map(str, range(2, self.n+1, 2)))
-        q = ' '.join(map(str, range(1, self.n+1, 2)))
+        p = ' '.join(map(str, range(2, self.n + 1, 2)))
+        q = ' '.join(map(str, range(1, self.n + 1, 2)))
         print(p, q)
-    
+
+
 s = Solver()
 s.solve()
-
