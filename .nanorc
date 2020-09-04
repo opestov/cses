@@ -1,0 +1,27 @@
+set afterends # Make Ctrl+Right stop at word ends instead of beginnings
+set autoindent
+
+set backup
+set backupdir ~/.nano-backup
+
+set cutfromcursor # Use cut-to-end-of-line by default
+set guidestripe 81 # Draw a vertical stripe at the given column
+
+set multibuffer # When reading in a file with ^R, insert it into a new buffer by default
+set nohelp
+set nowrap # Don't hard-wrap text at all
+set smarthome # Make the Home key smarter
+set softwrap # Enable soft line wrapping for easier viewing of very long lines
+
+set stripecolor red # Specify the color combination to use for the vertical guiding stripe
+
+set tabsize 4
+set tabstospaces
+set tempfile # Save automatically on exit, dont prompt
+
+set zap # Let an unmodified Backspace or Delete erase the marked region
+
+syntax bw "."
+color normal "[[:space:]]+$"
+formatter "python3 /home/ubuntu/yapf/yapf -i"
+
